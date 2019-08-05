@@ -98,7 +98,8 @@ binary-local:
 	$(GPGME_ENV) $(GO) build ${GO_DYN_FLAGS} -ldflags "-X main.gitCommit=${GIT_COMMIT}" -gcflags "$(GOGCFLAGS)" -tags "$(BUILDTAGS)" -o skopeo ./cmd/skopeo
 
 binary-local-static:
-	$(GPGME_ENV) $(GO) build -ldflags "-extldflags \"-static\" -X main.gitCommit=${GIT_COMMIT}" -gcflags "$(GOGCFLAGS)" -tags "$(BUILDTAGS)" -o skopeo ./cmd/skopeo
+	$(GPGME_ENV) $(GO) build -a -x -v -ldflags "-extldflags \"-static\" -X main.gitCommit=${GIT_COMMIT}" -gcflags "$(GOGCFLAGS)" -tags "netgo osusergo static static_build static_all $(BUILDTAGS) static" -o skopeo ./cmd/skopeo
+
 
 build-container:
 	${CONTAINER_RUNTIME} build ${BUILD_ARGS} -t "$(IMAGE)" .
