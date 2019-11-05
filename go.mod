@@ -27,4 +27,4 @@ require (
 	k8s.io/client-go v0.0.0-20181219152756-3dd551c0f083 // indirect
 )
 
-replace github.com/containers/image => github.com/anuvu/image v0.0.0-20190904195626-7368bc47821d
+replace github.com/containers/image => github.com/anuvu/image v1.5.2-0.20191105215744-2a035f8c08c9
