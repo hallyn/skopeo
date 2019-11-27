@@ -9,12 +9,8 @@ github.com/Microsoft/hcsshim v0.8.6 h1:ZfF0+zZeYdzMIVMZHKtDKJvLHj76XCuVae/jNkjj0
 github.com/Microsoft/hcsshim v0.8.6/go.mod h1:Op3hHsoHPAvb6lceZHDtd9OkTew38wNoXnJs8iY7rUg=
 github.com/VividCortex/ewma v1.1.1 h1:MnEK4VOv6n0RSY4vtRe3h11qjxL3+t0B8yOL8iMXdcM=
 github.com/VividCortex/ewma v1.1.1/go.mod h1:2Tkkvm3sRDVXaiyucHiACn4cqf7DpdyLvmxzcbUokwA=
-github.com/anuvu/image v0.0.0-20190904195626-7368bc47821d h1:s+nSNXoAb3cHxUZC/WyOjY0epFv9V7H1mfQT/y+jTQs=
-github.com/anuvu/image v0.0.0-20190904195626-7368bc47821d/go.mod h1:0HWZGqbbIkVJyCBnj+NDGEuAGuiIDQ5RzrYi0VvaZPg=
-github.com/anuvu/image v1.5.2-0.20190903224424-7368bc47821d673ffc1bfa9df3132b900d9adfe4 h1:+0eQFIXVgASDou1ikpbg3Nc69Y9FO70RVCNOoytm8bM=
-github.com/anuvu/image v1.5.2-0.20190903224424-7368bc47821d673ffc1bfa9df3132b900d9adfe4/go.mod h1:0HWZGqbbIkVJyCBnj+NDGEuAGuiIDQ5RzrYi0VvaZPg=
-github.com/anuvu/image v1.5.2-0.20191105215744-2a035f8c08c9 h1:EHBT+ERyy6vtS1vG03gBuvVfI7En3AZF1nNChDne5Dw=
-github.com/anuvu/image v1.5.2-0.20191105215744-2a035f8c08c9/go.mod h1:0HWZGqbbIkVJyCBnj+NDGEuAGuiIDQ5RzrYi0VvaZPg=
+github.com/anuvu/image v1.5.2-0.20191127001457-0edbf9680c31 h1:V0OlAQxUHuy9JjEH2+eetMrG90fuHeclIDiRPyiGaD4=
+github.com/anuvu/image v1.5.2-0.20191127001457-0edbf9680c31/go.mod h1:0HWZGqbbIkVJyCBnj+NDGEuAGuiIDQ5RzrYi0VvaZPg=
 github.com/containerd/continuity v0.0.0-20180216233310-d8fb8589b0e8 h1:ZZOFPzvZO3N0f4LIQvZi68F2XDAMl/gqBfFMVjY6B3Y=
 github.com/containerd/continuity v0.0.0-20180216233310-d8fb8589b0e8/go.mod h1:GL3xCUCBDV3CZiTSEKksMWbLE66hEyuu9qyDOOqM47Y=
 github.com/containers/buildah v1.8.4 h1:06c+UNeEWMa2wA1Z7muZ0ZqUzE91sDuZJbB0BiZaeYQ=
